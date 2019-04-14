@@ -1,0 +1,382 @@
+@media screen and (min-width:961px) {
+  .wrapper{
+    width: 100%;
+    overflow: hidden;
+  }
+  .contactbartb{
+    display: none;
+  }
+  .tb{
+    display: none;
+  }
+  .previledgeboxtb{
+    display: none;
+  }
+  .messageboxtb{
+    display: none;
+  }
+  .qaclose{
+    display: none;
+  }
+}
+
+@media only screen and (min-width:376px) and (max-width:960px) {
+  *{
+    box-sizing: border-box;
+  }
+  .wrapper{
+    width: 100%;
+    overflow: hidden;
+  }
+  .txtl{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .txtm{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .txts{
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .txtxs{
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0;
+  }
+  .title{
+    width: 100%;
+    margin: 0;
+  }
+  .headercontainer{
+    height: 62px;
+  }
+  .logotxt{
+    position: absolute;
+    top: -6px;
+    left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+  }
+  .title img{
+    position: absolute;
+    width: 96px;
+    left: 7px;
+  }
+  .contactbartb{
+    display: block;
+    cursor: pointer;
+    background-color: #da6b64;
+    right: -20px;
+    position: absolute;
+    color: white;
+    top: 0px;
+    padding:3px;
+    margin: 0px;
+  }
+  .contactbarpc{
+    display: none;
+  }
+  .toptxt img{
+    max-width: 317px;
+    width: 90%;
+  }
+  .caution{
+    font-size: 14px;
+  }
+  .conversionbtn p{
+    font-size: 18px;
+  }
+  .tb{
+    display: block;
+  }
+  .bordertop{
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 15px;
+  }
+  .borderbottom{
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 15px;
+  }
+  .skillbox{
+    margin: 10px 20px;
+    padding: 0px 45px 20px;
+  }
+  .skill img{
+    height: 32px;
+    width: 30px;
+  }
+  .skill{
+    padding: 3px;
+  }
+  .skill .txts{
+    font-size: 10px;
+  }
+  .stepbox{
+    padding: 18px;
+  }
+  .steparea{
+    display: inline-grid;
+  }
+  .about3txt .txtm{
+    font-size: 12px;
+  }
+  .learnimg img{
+    height: 120px;
+    width: 120px;
+  }
+  .m-bordertop{
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 65px;
+  }
+  .m-borderbottom{
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 60px;
+  }
+  .meritbox{
+    width: 70%;
+    padding: 8px 0;
+  }
+  .meritcontents-title p{
+    text-align: center;
+  }
+  .supports{
+    margin-top: 10px;
+    padding: 6px;
+    width: 80%;
+  }
+  .supports .txts{
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+  .meritbottom{
+    padding-top: 10px;
+  }
+  .meritbottom .txtxs{
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  .row{
+    display: block;
+  }
+  .memberbox{
+    width: 85%;
+  }
+  .details{
+    padding: 16px;
+  }
+  .memberbox img{
+    width: 130px;
+    position: relative;
+    bottom: -30px;
+  }
+  .whitetop {
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 15px;
+  }
+  .whitebottom {
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 15px;
+  }
+  .answer img{
+    display: flex;
+    margin: 15px;
+  }
+  .clientvoicetxt{
+    float: right;
+    position: relative;
+    width: 66%;
+    top: -262px;
+  }
+  .clientvoicetxt p{
+    font-size: 15px;
+  }
+  .clients {
+    padding: 10px 10px;
+  }
+  .available{
+    padding: 61px 0;
+    background-position: inherit;
+  }
+  .classbox{
+    display: block;
+    padding: 0 90px;
+  }
+  .contebox{
+    padding: 10px 0px;
+  }
+  .flowimg{
+    display: none;
+  }
+  .betweenimg img{
+    display: none;
+  }
+  .applyflowbox{
+    padding: 10px 15px 0 15px;
+    border-radius: 0px;
+    width: 90%;
+  }
+  .flowleft img{
+    height: 35px;
+    width: 35px;
+  }
+  .flowleft .txtm{
+    display: none;
+  }
+  .flowleft{
+    float: left;
+    padding: 0;
+    width: 35px;
+    margin-right: 10px;
+  }
+  .tb{
+    text-align: left;
+    position: relative;
+    top: -10px;
+    margin-bottom: 0;
+  }
+  .flowright{
+    display: none;
+    width: 100%;
+  }
+  .closetb{
+    font-size: 35px;
+    position: relative;
+    top: -7px;
+    float: right;
+    color: #e5e5e5;
+  }
+  .why .txtl{
+    text-align: center;
+  }
+  .why ul{
+    padding-left: 15px;
+  }
+  .previledgebox{
+    display: none;
+  }
+  .previledgeboxtb{
+    display: block;
+  }
+  .previledgetb {
+    position: relative;
+    background-color: #f7c23c;
+    top: -57px;
+    width: 51%;
+    left: 25%;
+}
+  .tokutenbox{
+    border: 2px solid white;
+    padding: 0 64px;
+    margin: 60px;
+    height: 360px;
+  }
+  .tokutencircle{
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    color:#ebb94d;
+    border-radius: 50%;
+  }
+  .tokutencircle .txtm{
+    position: relative;
+    top: 28px;
+  }
+  .tokutenbox .txts{
+    text-align: left;
+    position: relative;
+    top: -62px;
+    right: -96px;
+  }
+  .tokutenbox .tokutenbox1{
+    height: 85px;
+    position: relative;
+    top: -80px;
+  }
+  .tokutenbox .tokutenbox2{
+    height: 85px;
+    position: relative;
+    top: -80px;
+  }
+  .tokutenbox .tokutenbox3{
+    height: 85px;
+    position: relative;
+    top: -80px;
+  }
+  .mission{
+    padding: 40px 30px;
+  }
+  .whitetop{
+    left: 40px;
+  }
+  .whitebottom{
+    right: 40px;
+  }
+  .messagebox{
+    display: none;
+  }
+  .messageboxtb img{
+    width: 85%;
+  }
+  .messagetxt{
+    text-align: left;
+    padding: 0 57px;
+  }
+  .messagetxt ul{
+    padding-left: 15px;
+  }
+  .messagetxt .txts{
+    font-weight: 300;
+    letter-spacing: 1.5px;
+  }
+  .formbox{
+    width: 80%;
+  }
+  .q1 h4{
+    margin: 5px;
+    font-size: 16px;
+  }
+  .answerbox{
+    width: 100%;
+  }
+  .close{
+    display: none;
+  }
+  .qaclose{
+    float: right;
+    position: relative;
+    top: -29px;
+  }
+}
+@media screen and (max-width:375px) {
+  .wrapper{
+    width: 100%;
+    overflow: hidden;
+  }
+}
